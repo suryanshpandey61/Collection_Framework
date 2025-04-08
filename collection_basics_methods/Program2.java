@@ -13,6 +13,7 @@ public class Program2 {
 		Iterator itr=c1.iterator();
 		while(itr.hasNext()) {
 		 if(itr.next() instanceof String) {
+			
 			 itr.remove();
 		 }
 		}
